@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 56px;
+    height: 1600px;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background-color: #333;
+    padding: 15px 0px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+header .logo a {
+    font-size: 22px;
+}
+
+header .logo a span {
+    color: #f00;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header li {
+    margin: 0;
+    padding: 0px 10px;
+}
+
+header a {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.top {
+    width: 40px;
+    height: 40px;
+    background-color: #ff0022af;
+    color: #fff;
+
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(3, 3, 3, 0.3);
+    cursor: pointer;
+    opacity: 0.7;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.top:hover {
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.share {
+    width: 40px;
+    position: fixed;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.share ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.share ul a {
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.share ul a.fa {
+    background-color: #3b5998;
+}
+
+.share ul a.in {
+    background-color: #c32aa3;
+}
+
+.share ul a.tw {
+    background-color: #1da1f2;
+}
+
+.share ul a.li {
+    background-color: #0a66c2;
+}
